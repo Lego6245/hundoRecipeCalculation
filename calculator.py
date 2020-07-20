@@ -469,7 +469,7 @@ def calculateOrder(callNumber, startingInventory, recipeList, invFrames):
 
 		#If the iteration count exceeds a given threshold,
 		#Then reset the entire search space and begin anew
-		while(iterationCount < 500000):
+		while(iterationCount < 100000):
 
 			#Check for bad states to immediately retreat from
 			#The Thunder Rage must remain in the inventory until the Ch.5 Intermission
